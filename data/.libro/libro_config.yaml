@@ -1,0 +1,9 @@
+db:
+  - db_type: mysql
+    username: ''
+    password: ''
+    host: ''
+    port: 3306
+    database: db_test
+jpserver_extensions:
+  libro_sql: True

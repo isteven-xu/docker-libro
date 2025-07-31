@@ -1,0 +1,8 @@
+services:
+  libro:
+    build: .
+    volumes:
+      - ./data/libro/data:/app/libro
+      - ./data/libro/.libro:/root/.libro
+    ports:
+      - "8888:8888"
